@@ -16,7 +16,10 @@
 ==>  If I want to automat avoid I will try to do it Manually.
 
 5.Russian Hackers is creating fake orders, so how will you prevent it.
-==> 
+==>Check Details like address proof and Contact No and then 
+   Confirm order Through Email or OTP 
+   Call Them For Security Purpose and also
+   Confirm Once Before Shipping The Order.
 
 6.Create a local git repository with Java project
 ==>  git init
@@ -35,28 +38,117 @@
  create mode 100644 Q1/Amazon5.side
 
 8.Update the code
-==> 
+==> git add .
+git commit -m "updated Code"
+[master fc141ae] updated Code
+ 1 file changed, 62 insertions(+)
+ create mode 100644 ASDM_Exam.txt
 
 9.Use git commands to
 o Get the updated files
-==> 
+==> git status
+On branch master
+nothing to commit, working tree clean
+
 o List the changes
-==> 
+==>git log
+commit fc141aed22bf0907d34a5417ae23f59cfe92a227 (HEAD -> master)
+Author: prajakta chavan <prajuchavan99@gmail.com>
+Date:   Sat Mar 12 15:25:59 2022 +0530
+
+    updated Code
+
+commit 312484b7d3b52d6d8c0c226aa471257a7a2b372d
+Author: prajakta chavan <prajuchavan99@gmail.com>
+Date:   Sat Mar 12 15:15:44 2022 +0530
+
+    Initial Code
+
 o Create a branch
-==> 
+==> git branch b1
+
 o Merge branch
-==> 
+==> git merge b1
+Already up to date.
+
 10.Create a repository on GitHub
-==> 
+==>Steps to create repository on GitHub:
+	-Login to GitHub 
+	-click on New 
+	-Give name to Repository(My repository name:ASDM_Exam)
+	-click on create repository
+
 11.Push the local changes to GitHub
-==> 
+==> git remote add origin https://github.com/PrajaktaChavan99/ASDM_Exam.git
+    git push origin master
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (13/13), done.
+Writing objects: 100% (13/13), 32.90 KiB | 8.23 MiB/s, done.
+Total 13 (delta 5), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (5/5), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/PrajaktaChavan99/ASDM_Exam/pull/new/master
+remote:
+To https://github.com/PrajaktaChavan99/ASDM_Exam.git
+ * [new branch]      master -> master
+
 12.Pull the code from GitHub
-==> 
+==> git pull origin master
+From https://github.com/PrajaktaChavan99/ASDM_Exam
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
 13.Create and check out a branch
-==> 
+==> git branch b1
+    git checkout b1
+    Switched to branch 'b1'
+
 14.Add a new feature, commit and push changes to GitHub
-==> 
+==> git add .
+ git commit -m "Added new feature"
+[master 93a2d33] Added new feature	
+git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 227 bytes | 227.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/PrajaktaChavan99/ASDM_Exam.git
+   fc141ae..93a2d33  master -> master
+
 15.Create a pull request
-==> 
+==> git pull https://github.com/PrajaktaChavan99/ASDM_Exam.git
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 601 bytes | 0 bytes/s, done.
+From https://github.com/PrajaktaChavan99/ASDM_Exam
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+
 16.Review the changes on GitHub and merge the branch into the main branch
-==> 
+==> git log
+commit 93a2d33ae1659a73d2ffb7d382f4bdab230b1057 (HEAD -> master, origin/master)
+Author: prajakta chavan <prajuchavan99@gmail.com>
+Date:   Sat Mar 12 15:42:08 2022 +0530
+
+    Added new feature
+
+commit fc141aed22bf0907d34a5417ae23f59cfe92a227 (b1)
+Author: prajakta chavan <prajuchavan99@gmail.com>
+Date:   Sat Mar 12 15:25:59 2022 +0530
+
+    updated Code
+
+commit 312484b7d3b52d6d8c0c226aa471257a7a2b372d
+Author: prajakta chavan <prajuchavan99@gmail.com>
+Date:   Sat Mar 12 15:15:44 2022 +0530
+
+    Initial Code
+git merge b1
+Already up to date.
