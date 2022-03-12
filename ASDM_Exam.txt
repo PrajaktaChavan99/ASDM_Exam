@@ -1,0 +1,62 @@
+2.Now state different behaviour while login and another for logouts how Test Cases will be different.
+==> For login test case you will verify entered username and password and  for logout
+    test you have to login successfully then verify that after logout option clicked
+    you will get the login page.
+
+3.If you are the owner of amazon which test cases you will do every morning.
+==>  If I'm the owner of amazon following test cases I will do:
+	Login page test case
+	Home page test case
+	Payment page test case
+	Orders Page test case
+	Customer Service Page test case
+	Logout test case
+
+4.If you want to automat avoid how will you do that?
+==>  If I want to automat avoid I will try to do it Manually.
+
+5.Russian Hackers is creating fake orders, so how will you prevent it.
+==> 
+
+6.Create a local git repository with Java project
+==>  git init
+     Initialized empty Git repository in C:/Users/XUV/Desktop/0075_Prajakta_Chavan_ASDM_Exam/.git/
+
+7.Commit the initial code
+==> git commit -m "Initial Code"
+[master (root-commit) 312484b] Initial Code
+ 7 files changed, 574 insertions(+)
+ create mode 100644 0075_ASDM_Exam.txt
+ create mode 100644 ASDM_Lab_Exam_Set1.docx
+ create mode 100644 Q1/Amazon1.side
+ create mode 100644 Q1/Amazon2.side
+ create mode 100644 Q1/Amazon3.side
+ create mode 100644 Q1/Amazon4.side
+ create mode 100644 Q1/Amazon5.side
+
+8.Update the code
+==> 
+
+9.Use git commands to
+o Get the updated files
+==> 
+o List the changes
+==> 
+o Create a branch
+==> 
+o Merge branch
+==> 
+10.Create a repository on GitHub
+==> 
+11.Push the local changes to GitHub
+==> 
+12.Pull the code from GitHub
+==> 
+13.Create and check out a branch
+==> 
+14.Add a new feature, commit and push changes to GitHub
+==> 
+15.Create a pull request
+==> 
+16.Review the changes on GitHub and merge the branch into the main branch
+==> 
