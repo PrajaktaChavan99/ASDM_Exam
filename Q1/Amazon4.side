@@ -1,0 +1,122 @@
+{
+  "id": "fa12ed49-fe17-4f15-bb30-cde266ce0f7d",
+  "version": "2.0",
+  "name": "amazopntest4",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "edc1f683-7fe9-48ab-aa2c-8daaf9f59278",
+    "name": "narzo",
+    "commands": [{
+      "id": "484d5c0f-cfd0-4f77-a76a-1f2f780ac8d6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8e2f9051-ab13-4f5c-9635-f7de32c90fa3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d9f74fea-0aa3-4248-b821-c81945677bc0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,51.20000076293945)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed8f0368-7005-4587-8fec-498dc3696b6e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,139.1999969482422)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28a01795-fac8-4252-b7ec-3ab9468a9c60",
+      "comment": "",
+      "command": "click",
+      "target": "css=#wm5WAcPmNlIb7uePagoGdw .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#wm5WAcPmNlIb7uePagoGdw .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Mobiles']", "xpath:img"],
+        ["xpath=//div[@id='wm5WAcPmNlIb7uePagoGdw']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1bef58a-2de0-4fea-abec-18422f840468",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77c5352e-df9e-4adb-be84-2d03f2aa349d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f7b77ed-89d4-4af3-8406-6155af748356",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contentGrid_845077 .bxc-grid__row:nth-child(2) > .bxc-grid__column:nth-child(3) img",
+      "targets": [
+        ["css=#contentGrid_845077 .bxc-grid__row:nth-child(2) > .bxc-grid__column:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='narzo50']", "xpath:img"],
+        ["xpath=//div[@id='contentGrid_845077']/div/div[2]/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdaac42d-f923-4a4c-97ff-d8e38682e4ea",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#askATFLink > .a-size-base",
+      "targets": [
+        ["css=#askATFLink > .a-size-base", "css:finder"],
+        ["xpath=//a[@id='askATFLink']/span", "xpath:idRelative"],
+        ["xpath=//span[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99cca2d1-c846-4392-bde4-e8d8dd8299fb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#askATFLink > .a-size-base",
+      "targets": [
+        ["css=#askATFLink > .a-size-base", "css:finder"],
+        ["xpath=//a[@id='askATFLink']/span", "xpath:idRelative"],
+        ["xpath=//span[2]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a838d03-bce7-4458-827e-f554e3ff5620",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-now-button",
+      "targets": [
+        ["id=buy-now-button", "id"],
+        ["css=#buy-now-button", "css:finder"],
+        ["xpath=//input[@id='buy-now-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.buy-now']/span/input", "xpath:idRelative"],
+        ["xpath=//div[32]/div/div/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b24fb54e-f652-46d8-bab6-063e8d5df147",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["edc1f683-7fe9-48ab-aa2c-8daaf9f59278"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

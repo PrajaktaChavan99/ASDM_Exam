@@ -1,0 +1,100 @@
+{
+  "id": "ab736fe5-68eb-42dd-a243-26cee3b34105",
+  "version": "2.0",
+  "name": "amazopntest5",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "314b63a6-95f0-491a-8c2f-34cd4fd1271b",
+    "name": "iphone",
+    "commands": [{
+      "id": "fbdca0e6-486e-4df1-81a7-074149974b72",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90ed6b45-7879-4584-891d-124847ab7872",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a72e25f1-0865-4f34-8669-6c2747fb4ed5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,224)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f1cdb32e-9113-44d0-afbf-3f949f83e718",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,438.3999938964844)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5de863bb-8151-4b8f-90b3-7aa922f8283f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#bBChbWI3WrPW8B4xtAfIQg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#bBChbWI3WrPW8B4xtAfIQg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Mobiles']", "xpath:img"],
+        ["xpath=//div[@id='bBChbWI3WrPW8B4xtAfIQg']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc1e55b3-889a-4ff3-a9a8-8df2b805b3e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,492)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba91068a-6e32-4a22-bce6-912f452e0fa1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,904)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a53a5aa9-1aa5-41a5-853e-92271fcf5390",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contentGrid_702171 .bxc-grid__row:nth-child(3) > .bxc-grid__column:nth-child(4) img",
+      "targets": [
+        ["css=#contentGrid_702171 .bxc-grid__row:nth-child(3) > .bxc-grid__column:nth-child(4) img", "css:finder"],
+        ["xpath=//img[@alt='iphone12']", "xpath:img"],
+        ["xpath=//div[@id='contentGrid_702171']/div/div[3]/div[4]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[4]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "201b9906-265a-41f7-9a63-91a68fd83473",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-now-button",
+      "targets": [
+        ["id=buy-now-button", "id"],
+        ["css=#buy-now-button", "css:finder"],
+        ["xpath=//input[@id='buy-now-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.buy-now']/span/input", "xpath:idRelative"],
+        ["xpath=//div[32]/div/div/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eec90865-7924-4af9-a444-05aa56e5d0ee",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["314b63a6-95f0-491a-8c2f-34cd4fd1271b"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

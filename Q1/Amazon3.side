@@ -1,0 +1,93 @@
+{
+  "id": "d760ce3a-c323-4075-801e-a51050c3a784",
+  "version": "2.0",
+  "name": "amazopntest3",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "e4369ee5-8f56-4f25-bee9-c9b1bc2568c8",
+    "name": "techno",
+    "commands": [{
+      "id": "b4b3558a-8b92-4ddc-8413-413f96b482cd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0a3008a-c146-496e-8853-c6560052dac5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2b083f3-b2d4-4df3-adee-360a09c6d7f8",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,408.79998779296875)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42ac6332-f6db-4735-9aae-e78ecdbc9e72",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Px7sWeGkf7ztkGXYmKrQxg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#Px7sWeGkf7ztkGXYmKrQxg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Mobiles']", "xpath:img"],
+        ["xpath=//div[@id='Px7sWeGkf7ztkGXYmKrQxg']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a396c2f9-1969-45c5-90c1-6c135af74a0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contentGrid_626720 .bxc-grid__row:nth-child(2) > .bxc-grid__column:nth-child(1) img",
+      "targets": [
+        ["css=#contentGrid_626720 .bxc-grid__row:nth-child(2) > .bxc-grid__column:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Spark8T']", "xpath:img"],
+        ["xpath=//div[@id='contentGrid_626720']/div/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "64846318-bb30-41cb-9c1b-846fe24eb604",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1024)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0b66794d-bb30-4f69-a5e6-20fa515a6215",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,600)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb9e21be-0247-44bc-99eb-b61f6f36cfcf",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-now-button",
+      "targets": [
+        ["id=buy-now-button", "id"],
+        ["css=#buy-now-button", "css:finder"],
+        ["xpath=//input[@id='buy-now-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.buy-now']/span/input", "xpath:idRelative"],
+        ["xpath=//div[32]/div/div/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc52ce6d-1243-487b-8244-5cfc93cb6acb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e4369ee5-8f56-4f25-bee9-c9b1bc2568c8"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

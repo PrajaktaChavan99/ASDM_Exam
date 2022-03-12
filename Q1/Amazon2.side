@@ -1,0 +1,118 @@
+{
+  "id": "1022af49-f201-487d-b0b9-1253d0f94270",
+  "version": "2.0",
+  "name": "amazopntest2",
+  "url": "https://www.amazon.in",
+  "tests": [{
+    "id": "0d997eba-30d4-412c-965e-375146c67de8",
+    "name": "onePlus",
+    "commands": [{
+      "id": "a644956d-5423-4868-be30-12ad09009df8",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c73625d-4bee-47d9-b4e4-ea95d4c30128",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f05a7e25-52e2-4bb4-93b4-e4c4ff08835f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Wet8D38pzbdg8I5mDscHAg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image",
+      "targets": [
+        ["css=#Wet8D38pzbdg8I5mDscHAg .a-section:nth-child(1) > .a-section:nth-child(2) .landscape-image", "css:finder"],
+        ["xpath=//img[@alt='Mobiles']", "xpath:img"],
+        ["xpath=//div[@id='Wet8D38pzbdg8I5mDscHAg']/div[2]/div/div[2]/a/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div[2]/div/div[2]/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eb698f51-0cec-4a33-8a55-987e3a15e150",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,305.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7ec699c-fbce-43f9-b77b-68cf083d38a5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1197.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c166eb41-5562-4bf1-a5f8-7ae191206401",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contentGrid_978612 .bxc-grid__row:nth-child(3) > .bxc-grid__column:nth-child(3) img",
+      "targets": [
+        ["css=#contentGrid_978612 .bxc-grid__row:nth-child(3) > .bxc-grid__column:nth-child(3) img", "css:finder"],
+        ["xpath=//img[@alt='op']", "xpath:img"],
+        ["xpath=//div[@id='contentGrid_978612']/div/div[3]/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a43e6ea9-2b7d-49d9-9009-cd73586968e8",
+      "comment": "",
+      "command": "click",
+      "target": "id=buy-now-button",
+      "targets": [
+        ["id=buy-now-button", "id"],
+        ["css=#buy-now-button", "css:finder"],
+        ["xpath=//input[@id='buy-now-button']", "xpath:attributes"],
+        ["xpath=//span[@id='submit.buy-now']/span/input", "xpath:idRelative"],
+        ["xpath=//div[32]/div/div/span/span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78039823-47fb-47d8-906b-2659121db92a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Acko 1-year Screen Protection Plan",
+      "targets": [
+        ["linkText=Acko 1-year Screen Protection Plan", "linkText"],
+        ["css=.a-section:nth-child(2) > .a-checkbox #mbbPopoverLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Acko 1-year Screen Protection Plan')]", "xpath:link"],
+        ["xpath=(//a[@id='mbbPopoverLink'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='abbWrapper']/fieldset/div[2]/div[2]/div/label/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/label/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Acko 1-year Screen Protection Plan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1a9164a-e459-4801-9c8c-04d6473363ff",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Acko 1-year Screen Protection Plan",
+      "targets": [
+        ["linkText=Acko 1-year Screen Protection Plan", "linkText"],
+        ["css=.a-section:nth-child(2) > .a-checkbox #mbbPopoverLink", "css:finder"],
+        ["xpath=//a[contains(text(),'Acko 1-year Screen Protection Plan')]", "xpath:link"],
+        ["xpath=(//a[@id='mbbPopoverLink'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='abbWrapper']/fieldset/div[2]/div[2]/div/label/span/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[5]", "xpath:href"],
+        ["xpath=//div[2]/div/label/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Acko 1-year Screen Protection Plan')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1ea035c9-1efa-46e2-95b7-234745176e4c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0d997eba-30d4-412c-965e-375146c67de8"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}
